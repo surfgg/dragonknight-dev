@@ -2,4 +2,12 @@
 
 @tailwind components;
 
+@import 'fonts/fonts';
+
 @tailwind utilities;
+
+
+body {
+    @apply bg-bg-200 text-gray-700 font-body;
+    // background-image: url('img/lighttopo.jpg');
+}

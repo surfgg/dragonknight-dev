@@ -9,6 +9,6 @@ class WelcomeController extends Controller
 {
     public function welcome()
     {
-        return view();
+        return view('pages.welcome');
     }
 }

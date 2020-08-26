@@ -5,14 +5,14 @@
         <h2 class="text-center">An open source RPG written in PHP</h2>
 
         <div class="flex mt-8">
-            <a class="inline-block w-full px-8 py-4 mr-4 text-center text-white bg-crimson-500" download><i class="far fa-fw fa-download"></i> Download v1.1.1</a>
-            <a class="inline-block w-full px-8 py-4 ml-4 text-center text-white bg-gray-800" download><i class="fab fa-fw fa-github"></i> Download from Github</a>
+            <a class="inline-block w-full px-8 py-4 mr-4 text-center text-white cursor-pointer bg-crimson-500 hover:text-white hover:bg-crimson-400" download><i class="far fa-fw fa-download"></i> Download v1.1.1</a>
+            <a class="inline-block w-full px-8 py-4 ml-4 text-center text-white bg-gray-800 cursor-pointer hover:text-white hover:bg-gray-700" download><i class="fab fa-fw fa-github"></i> Download from Github</a>
         </div>
     </div>
 </section>
 
-<section class="w-full bg-bg-400">
-    <div class="w-1/2 py-12 mx-auto">
+<section class="relative w-full bg-bg-300">
+    <div class="relative z-10 w-1/2 py-12 mx-auto">
         <h1 class="text-crimson-500">What is this?</h1>
         <p>
             Dragon Knight is an open source text-based RPG written in PHP. It was originally a passion project by

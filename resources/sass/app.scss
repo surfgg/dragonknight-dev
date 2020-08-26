@@ -8,9 +8,7 @@ $fa-font-path: 'fonts/fontawesome';
 @import '~@fortawesome/fontawesome-pro/scss/brands';
 
 // Vendor
-/* purgecss start ignore */
 @import '~overlayscrollbars/css/OverlayScrollbars.css';
-/* purgecss end ignore */
 
 @tailwind components;
 

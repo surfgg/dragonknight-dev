@@ -1,13 +1,53 @@
 @tailwind base;
 
+// Fontawesome
+$fa-font-path: 'fonts/fontawesome';
+@import '~@fortawesome/fontawesome-pro/scss/fontawesome';
+@import '~@fortawesome/fontawesome-pro/scss/regular';
+@import '~@fortawesome/fontawesome-pro/scss/solid';
+@import '~@fortawesome/fontawesome-pro/scss/brands';
+
+// Vendor
+@import '~overlayscrollbars/css/OverlayScrollbars.css';
+
 @tailwind components;
 
 @import 'fonts/fonts';
 
 @tailwind utilities;
 
+[x-cloak] {
+    @apply hidden;
+}
+
+html {
+    font-size: 18px;
+}
 
 body {
     @apply bg-bg-200 text-gray-700 font-body;
     // background-image: url('img/lighttopo.jpg');
+}
+
+h1, h2, h3 {
+    @apply font-display;
+}
+
+h1 {
+    @apply font-black text-3xl;
+}
+
+h2 {
+    @apply font-bold text-xl;
+}
+
+h3 {
+    @apply font-bold;
+}
+
+a {
+    @apply text-crimson-500;
+    &:hover {
+        @apply cursor-pointer text-crimson-800;
+    }
 }

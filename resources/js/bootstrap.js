@@ -4,6 +4,7 @@ window._ = require('lodash');
 try {
     window.Popper = require('popper.js').default;
     window.axios = require('axios');
+    window.Scrollbars = require('overlayscrollbars');
 } catch (e) {}
 
 

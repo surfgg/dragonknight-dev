@@ -5,8 +5,10 @@
         <h2 class="text-center">An open source RPG written in PHP</h2>
 
         <div class="flex flex-col mt-8 lg:flex-row">
-            <a class="inline-block w-full px-8 py-4 text-center text-white cursor-pointer lg:mr-4 bg-crimson-500 hover:text-white hover:bg-crimson-400" download><i class="far fa-fw fa-download"></i> Download v1.1.1</a>
-            <a class="inline-block w-full px-8 py-4 text-center text-white bg-gray-800 cursor-pointer lg:ml-4 hover:text-white hover:bg-gray-700" download><i class="fab fa-fw fa-github"></i> Download from Github</a>
+            <a class="inline-block w-full px-8 py-4 text-center text-white cursor-pointer lg:mr-4 bg-crimson-500 hover:text-white hover:bg-crimson-400"
+                href="https://github.com/surfgg/dragon-knight/releases/tag/v1.1.11"><i class="far fa-fw fa-download"></i> Download v1.1.1</a>
+            <a class="inline-block w-full px-8 py-4 text-center text-white bg-gray-800 cursor-pointer lg:ml-4 hover:text-white hover:bg-gray-700"
+                href="https://github.com/surfgg/dragon-knight/releases/"><i class="fab fa-fw fa-github"></i> Download from Github</a>
         </div>
     </div>
 </section>

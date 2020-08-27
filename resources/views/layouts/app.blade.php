@@ -26,5 +26,10 @@
     </div>
 
     <livewire:scripts />
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            OverlayScrollbars(document.querySelectorAll('body'), { className: 'os-theme-dark' });
+        });
+    </script>
 </body>
 </html>
